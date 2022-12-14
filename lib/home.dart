@@ -178,55 +178,7 @@ class Home extends StatelessWidget {
                 )
               ]),
             ],
-          )
-          // Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
-          //   Expanded(
-          //     child: Container(
-          //       margin: const EdgeInsets.all(10.0),
-          //       color: Colors.amber[600],
-          //       width: 150,
-          //       height: 200,
-          //     ),
-          //   ),
-          //   Expanded(
-          //     child: Container(
-          //       margin: const EdgeInsets.all(10.0),
-          //       color: Colors.amber[600],
-          //       width: 100,
-          //       height: 200,
-          //     ),
-          //   )
-          // ]),
-
-          // body: FractionallySizedBox(
-          //   widthFactor: 1.0, // between 0 and 1
-          //   heightFactor: 1.0,
-          //   child: Container(
-          //     color: Colors.red,
-          //     child: Container(
-          //       widthFactor: 1.0, // between 0 and 1
-          //       heightFactor: 1.0,
-          //       color: Colors.red,
-          //     ),
-          //   ),
-          // ),
-          // body: Row(
-          //   children: [
-          //     Container(
-          //       margin: const EdgeInsets.all(10.0),
-          //       color: Colors.amber[600],
-          //       width: MediaQuery.of(context).size.width * 0.50,
-          //       // height: MediaQuery.of(context).size.height * 0.50,
-          //     ),
-          //     Container(
-          //       margin: const EdgeInsets.all(10.0),
-          //       color: Colors.amber[600],
-          //       width: 100,
-          //       height: 100,
-          //     ),
-          //   ],
-          // ),
-          ),
+          )),
     );
   }
 }
