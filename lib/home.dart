@@ -6,34 +6,26 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var title = 'Dashboard';
-    // getting the size of the window
-    // var size = MediaQuery.of(context).size;
-    // var height = size.height;
-    // var width = size.width;
 
     return MaterialApp(
       title: title,
       home: Scaffold(
           appBar: AppBar(
             toolbarHeight: 70.0, // add this line
-            // title: Text(title),
             centerTitle: false,
-            title: Column(
-                // mainAxisAlignment: MainAxisAlignment.center,
-                // crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    "Dashboard   ",
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30.0,
-                        fontWeight: FontWeight.w700),
-                  ),
-                  Text(
-                    "Welcome, Doctor Code",
-                    style: TextStyle(color: Colors.white, fontSize: 17.0),
-                  ),
-                ]),
+            title: Column(children: [
+              Text(
+                "Dashboard   ",
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w700),
+              ),
+              Text(
+                "Welcome, Doctor Code",
+                style: TextStyle(color: Colors.white, fontSize: 17.0),
+              ),
+            ]),
           ),
           body: Column(
             children: [
